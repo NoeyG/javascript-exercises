@@ -1,4 +1,9 @@
-const sumAll = function() {
+const sumAll = function(min,max) {
+
+let sum = 0;
+ for(var i = min; i <= max; i++)
+ sum = sum + i;
+ return sum;
 
 };
 
